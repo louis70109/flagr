@@ -2,9 +2,20 @@
   "name": "flagr",
   "description": "Feature toggle tool",
   "repository": "https://github.com/louis70109/flagr",
-  "keywords": [
-    "feature toggle",
-    "flagr"
-  ],
-  "stack": "container"
+  "keywords": ["feature toggle", "flagr"],
+  "stack": "container",
+  "env": {
+    "FLAGR_BASIC_AUTH_ENABLED": {
+      "description": "Enable auth",
+      "generator": true
+    },
+    "FLAGR_BASIC_AUTH_USERNAME": {
+      "description": "Auth username",
+      "generator": "admin"
+    },
+    "FLAGR_BASIC_AUTH_PASSWORD": {
+      "description": "Auth passwd",
+      "generator": "adminpwd"
+    }
+  }
 }
