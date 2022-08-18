@@ -19,7 +19,7 @@ RUN make build
 ######################################
 # Copy from builder to alpine image
 ######################################
-FROM frolvlad/alpine-glibc:alpine-3.15
+FROM frolvlad/alpine-glibc:alpine-3.14_glibc-2.33
 RUN apk add --no-cache curl
 WORKDIR /go/src/github.com/openflagr/flagr
 VOLUME ["/data"]
