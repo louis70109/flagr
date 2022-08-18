@@ -13,4 +13,4 @@ build:
     FLAGR_BASIC_AUTH_PASSWORD: password
 
 run:
-  web: /bin/sh -c ./flagr
+  web: ./flagr

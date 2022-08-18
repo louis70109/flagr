@@ -17,5 +17,11 @@
       "description": "Auth passwd",
       "value": "adminpwd"
     }
-  }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "as": "DATABASES"
+    }
+  ]
 }
