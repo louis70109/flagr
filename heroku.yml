@@ -12,8 +12,5 @@ build:
     FLAGR_BASIC_AUTH_USERNAME: admin
     FLAGR_BASIC_AUTH_PASSWORD: password
 
-release:
-  command:
-    - ./flagr
 run:
   web: /bin/sh -c ./flagr
