@@ -1,0 +1,10 @@
+{
+  "name": "flagr",
+  "description": "Feature toggle tool",
+  "repository": "https://github.com/louis70109/flagr",
+  "keywords": [
+    "feature toggle",
+    "flagr"
+  ],
+  "stack": "container"
+}
