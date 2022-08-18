@@ -16,6 +16,14 @@
     "FLAGR_BASIC_AUTH_PASSWORD": {
       "description": "Auth passwd",
       "value": "adminpwd"
+    },
+    "FLAGR_DB_DBDRIVER": {
+      "description": "SQL driver",
+      "value": "postgres"
+    },
+    "FLAGR_DB_DBCONNECTIONSTR": {
+      "description": "You need to set ?sslmode=disable after DB url",
+      "value": "postgres://xxxxxx?sslmode=disable"
     }
   },
   "addons": [
