@@ -7,15 +7,15 @@
   "env": {
     "FLAGR_BASIC_AUTH_ENABLED": {
       "description": "Enable auth",
-      "generator": true
+      "value": true
     },
     "FLAGR_BASIC_AUTH_USERNAME": {
       "description": "Auth username",
-      "generator": "admin"
+      "value": "admin"
     },
     "FLAGR_BASIC_AUTH_PASSWORD": {
       "description": "Auth passwd",
-      "generator": "adminpwd"
+      "value": "adminpwd"
     }
   }
 }
